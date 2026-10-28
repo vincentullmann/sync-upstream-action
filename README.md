@@ -49,7 +49,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: vincentullmann/sync-upstream@main
+      - uses: vincentullmann/sync-upstream-action@main
         with:
           branch: develop
 ```
